@@ -1,0 +1,60 @@
+@import 'template';
+
+/* -----------------------------------
+ *
+ * Title
+ *
+ * -------------------------------- */
+
+.title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 32px;
+  color: white;
+  margin: 0 0 1.5em;
+}
+
+/* -----------------------------------
+ *
+ * Label
+ *
+ * -------------------------------- */
+
+.label {
+  display: block;
+  color: #b6b6b6;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+/* -----------------------------------
+ *
+ * Input
+ *
+ * -------------------------------- */
+
+.input {
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 2px;
+  min-width: 320px;
+  border: none;
+}
+
+/* -----------------------------------
+ *
+ * Text
+ *
+ * -------------------------------- */
+
+.text {
+  color: #f1f1f1;
+  font-size: 18px;
+  text-align: center;
+
+  em {
+    font-style: normal;
+    font-weight: 300;
+  }
+}

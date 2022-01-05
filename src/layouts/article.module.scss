@@ -1,0 +1,32 @@
+@import 'template';
+
+/* -----------------------------------
+ *
+ * Content
+ *
+ * -------------------------------- */
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* -----------------------------------
+ *
+ * Article
+ *
+ * -------------------------------- */
+
+.article {
+  @extend %article;
+
+  font-size: 18px;
+  color: white;
+  text-align: center;
+
+  a {
+    color: white;
+  }
+}
